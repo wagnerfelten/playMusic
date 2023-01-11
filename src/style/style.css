@@ -65,6 +65,16 @@ body {
     width: 45px;
 }
 
+video{
+  width: 240px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.hide{
+  display: none;
+}
+
 
 @media (min-width: 758px){
     .main-container{
@@ -76,6 +86,11 @@ body {
     .card img {
         width: 420px;
       }
+
+    .card video{
+      width: 420px;
+      height: 400px;
+    }
 
     .card h2{
         font-size: 52px;
@@ -106,6 +121,10 @@ body {
 
     .card{
         display: flex;
+    }
+
+    .card video {
+      width: 600px;
     }
 
     .text-container{

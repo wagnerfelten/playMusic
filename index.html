@@ -17,8 +17,12 @@
     <main class="main-container">
       <section>
         <div class="card">
-          <img src="./public/img/fundo-card.svg" alt="card de fundo" />
-
+          <img class="card-img" src="./public/img/fundo-card.svg" alt="card de fundo" />
+        
+          <div >
+            <video class="hide" src="./public/video/production ID_4169986.mp4" loop muted></video>
+          </div>
+        
           <div class="text-container">
             <h2>Acorda Devinho</h2>
             <h3>Banda Rocketseat</h3>
@@ -30,17 +34,28 @@
             <img src="./public/img/play-back.svg" alt="seta a direita" />
           </button>
 
-          <button>
+          <button class="play">
             <img src="./public/img/play.svg" alt="play" />
+          </button>
+
+          <button class="pause hide">
+            <img src="./public/img/pausa.png" alt="pause" />
           </button>
 
           <button>
             <img src="./public/img/play-forward.svg" alt="seta a esquerda" />
           </button>
         </div>
-
-        <div></div>
       </section>
     </main>
+
+    <div>
+     
+      <audio
+        src="./public/music/WhatsApp Audio 2023-01-11 at 09.38.05.mpeg"
+      ></audio>
+    </div>
+
+    <script src="./src/js/controllerSons.js"></script>
   </body>
 </html>
